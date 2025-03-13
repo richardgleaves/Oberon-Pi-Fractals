@@ -1,0 +1,14 @@
+Bolt.Draw  Dragon.Draw  Fern.Draw  Galaxy.Draw
+Ice.Draw  Leaf.Draw  Ruler.Draw  Shrimp.Draw  
+
+Edit.Cut  Edit.Copy  Edit.Paste  Edit.Undo
+
+Edit.Open ^
+OBC.Compile ^ ~
+Bolt.Mod  Dragon.Mod  Fern.Mod  Galaxy.Mod
+Ice.Mod  Leaf.Mod  Ruler.Mod  Shrimp.Mod  
+
+System.Directory 
+System.CopyFiles  file => file ~
+
+Window.Reopen
